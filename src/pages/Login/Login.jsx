@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Footer } from '../../components/Footer/Footer'
 import {
   LoginWrapper,
   HigherWrapper,
@@ -53,7 +53,7 @@ export const Login = () => {
           </NewAccountButtonWrapper>
         </LoginBoxWrapper>
       </HigherWrapper>
-      <div></div>
+      <Footer />
     </LoginWrapper>
   )
 }
